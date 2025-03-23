@@ -33,15 +33,7 @@ SECRET_KEY = 'django-insecure-orp#-&e$dkahv-2yq$tj#3qy9-yw1+s$*7jwdu_vn88!txqecx
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
-ALLOWED_HOSTS = [
-     # "parky-1.onrender.com",
-     # "127.0.0.1",
-     # "localhost",
-     # "parky-tyy3.onrender.com",
-     # "parky-2.onrender.com"
-    "graduationproject-1-3625.onrender.com",
-    "127.0.0.1"
-]
+ALLOWED_HOSTS = ["https://smartization.onrender.com","127.0.0.1"]
 
 
 # Application definition
@@ -98,10 +90,10 @@ WSGI_APPLICATION = 'src.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'smart_parking_db',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'NAME': 'smartization_parking',
+        'USER': '405565',
+        'PASSWORD': '123456@smart',
+        'HOST': 'mysql-smartization.alwaysdata.net',
         'PORT': '3306'
     }
 }
