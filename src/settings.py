@@ -34,11 +34,13 @@ SECRET_KEY = 'django-insecure-orp#-&e$dkahv-2yq$tj#3qy9-yw1+s$*7jwdu_vn88!txqecx
 
 
 ALLOWED_HOSTS = [
-     "parky-1.onrender.com",
-     "127.0.0.1",
-     "localhost",
-     "parky-tyy3.onrender.com",
-     "parky-2.onrender.com"
+     # "parky-1.onrender.com",
+     # "127.0.0.1",
+     # "localhost",
+     # "parky-tyy3.onrender.com",
+     # "parky-2.onrender.com"
+    "graduationproject-1-3625.onrender.com",
+    "127.0.0.1"
 ]
 
 
